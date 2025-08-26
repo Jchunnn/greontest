@@ -9,8 +9,8 @@
       rel="stylesheet"
     />
     <title>index</title>
-    <script type="module" crossorigin src="/greontest/assets/main-CJlpAfsR.js"></script>
-    <link rel="stylesheet" crossorigin href="/greontest/assets/main-Be35KXZj.css">
+    <script type="module" crossorigin src="/greontest/assets/main-CxsAxwqe.js"></script>
+    <link rel="stylesheet" crossorigin href="/greontest/assets/main-BHHrPTPh.css">
   </head>
   <body>
     <div class="bg-neutral">
@@ -80,82 +80,125 @@
   </div>
 </div>
 
-    <h1 class="index-title text-primary-500">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="/greontest/assets/dog-C9XCfHyE.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit,
-          iusto odio assumenda alias id nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              關閉
-            </button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+    <div class="hero">
+      <div class="container py-3">
+        <!-- hero上方btn -->
+        <div class="pb-332">
+          <!-- 電影 -->
+          <button
+            type="button"
+            class="btn btn-outline-neutral-0 me-5 py-3 px-5"
+          >
+            電影
+          </button>
+          <!-- 影集 -->
+          <button
+            type="button"
+            class="btn btn-outline-neutral-0 me-5 py-3 px-5"
+          >
+            影集
+          </button>
+          <!-- 影片分類  -->
+          <button
+            type="button"
+            class="btn btn-outline-neutral-0 me-5 py-3 px-5"
+          >
+            影片分類
+            <span class="material-icons-outlined align-bottom">
+              chevron_right
+            </span>
+          </button>
         </div>
+        <!-- badge -->
+        <span class="badge text-bg-success fs-7 fw-bold px-3 py-2">熱映中</span>
+        <!-- 地球的脈動 -->
+        <p class="fs-6 text-neutral-0">地球的脈動</p>
       </div>
     </div>
 
     <div class="bg-neutral">
-  <div class="container py-2 d-flex">
-    <!-- 首頁 -->
-    <div class="py-3 px-2">
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="text-center"
-      >
-        <path
-          d="M6 19H9V14C9 13.7167 9.096 13.4793 9.288 13.288C9.48 13.0967 9.71733 13.0007 10 13H14C14.2833 13 14.521 13.096 14.713 13.288C14.905 13.48 15.0007 13.7173 15 14V19H18V10L12 5.5L6 10V19ZM4 19V10C4 9.68333 4.071 9.38333 4.213 9.1C4.355 8.81667 4.55067 8.58333 4.8 8.4L10.8 3.9C11.15 3.63333 11.55 3.5 12 3.5C12.45 3.5 12.85 3.63333 13.2 3.9L19.2 8.4C19.45 8.58333 19.646 8.81667 19.788 9.1C19.93 9.38333 20.0007 9.68333 20 10V19C20 19.55 19.804 20.021 19.412 20.413C19.02 20.805 18.5493 21.0007 18 21H14C13.7167 21 13.4793 20.904 13.288 20.712C13.0967 20.52 13.0007 20.2827 13 20V15H11V20C11 20.2833 10.904 20.521 10.712 20.713C10.52 20.905 10.2827 21.0007 10 21H6C5.45 21 4.97933 20.8043 4.588 20.413C4.19667 20.0217 4.00067 19.5507 4 19Z"
-          fill="#44A40C"
-        />
-      </svg>
-      <p class="mt-3 fs-xs">首頁</p>
+  <div class="container py-2 px-5 text-center">
+    <div class="d-flex px-5 justify-content-between">
+      <!-- 首頁 -->
+      <div class="py-3 px-2 me-10">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="text-center"
+        >
+          <path
+            d="M6 19H9V14C9 13.7167 9.096 13.4793 9.288 13.288C9.48 13.0967 9.71733 13.0007 10 13H14C14.2833 13 14.521 13.096 14.713 13.288C14.905 13.48 15.0007 13.7173 15 14V19H18V10L12 5.5L6 10V19ZM4 19V10C4 9.68333 4.071 9.38333 4.213 9.1C4.355 8.81667 4.55067 8.58333 4.8 8.4L10.8 3.9C11.15 3.63333 11.55 3.5 12 3.5C12.45 3.5 12.85 3.63333 13.2 3.9L19.2 8.4C19.45 8.58333 19.646 8.81667 19.788 9.1C19.93 9.38333 20.0007 9.68333 20 10V19C20 19.55 19.804 20.021 19.412 20.413C19.02 20.805 18.5493 21.0007 18 21H14C13.7167 21 13.4793 20.904 13.288 20.712C13.0967 20.52 13.0007 20.2827 13 20V15H11V20C11 20.2833 10.904 20.521 10.712 20.713C10.52 20.905 10.2827 21.0007 10 21H6C5.45 21 4.97933 20.8043 4.588 20.413C4.19667 20.0217 4.00067 19.5507 4 19Z"
+            fill="#44A40C"
+          />
+        </svg>
+        <p class="mt-3 fs-xs text-success-200">首頁</p>
+      </div>
+      <!-- 分類 -->
+      <div class="py-3 px-2 me-10">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 4H10V10H4V4ZM14 4H20V10H14V4ZM4 14H10V20H4V14ZM14 17C14 17.7956 14.3161 18.5587 14.8787 19.1213C15.4413 19.6839 16.2044 20 17 20C17.7956 20 18.5587 19.6839 19.1213 19.1213C19.6839 18.5587 20 17.7956 20 17C20 16.2044 19.6839 15.4413 19.1213 14.8787C18.5587 14.3161 17.7956 14 17 14C16.2044 14 15.4413 14.3161 14.8787 14.8787C14.3161 15.4413 14 16.2044 14 17Z"
+            stroke="#F5F5F5"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <p class="mt-3 fs-xs text-neutral-0">分類</p>
+      </div>
+      <!-- 紀錄 -->
+      <div class="py-3 px-2 me-10">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.4041 3.00154C8.31407 2.86154 4.14407 6.95154 4.14407 12.0015H2.35407C1.90407 12.0015 1.68407 12.5415 2.00407 12.8515L4.79407 15.6515C4.99407 15.8515 5.30407 15.8515 5.50407 15.6515L8.29407 12.8515C8.60407 12.5415 8.38407 12.0015 7.93407 12.0015H6.14407C6.14407 8.10154 9.32407 4.95154 13.2441 5.00154C16.9641 5.05154 20.0941 8.18154 20.1441 11.9015C20.1941 15.8115 17.0441 19.0015 13.1441 19.0015C11.5341 19.0015 10.0441 18.4515 8.86407 17.5215C8.46407 17.2115 7.90407 17.2415 7.54407 17.6015C7.12407 18.0215 7.15407 18.7315 7.62407 19.0915C9.14407 20.2915 11.0541 21.0015 13.1441 21.0015C18.1941 21.0015 22.2841 16.8315 22.1441 11.7415C22.0141 7.05154 18.0941 3.13154 13.4041 3.00154ZM12.8941 8.00154C12.4841 8.00154 12.1441 8.34154 12.1441 8.75154V12.4315C12.1441 12.7815 12.3341 13.1115 12.6341 13.2915L15.7541 15.1415C16.1141 15.3515 16.5741 15.2315 16.7841 14.8815C16.9941 14.5215 16.8741 14.0615 16.5241 13.8515L13.6441 12.1415V8.74154C13.6441 8.34154 13.3041 8.00154 12.8941 8.00154Z"
+            fill="#F5F5F5"
+          />
+        </svg>
+
+        <p class="mt-3 fs-xs text-neutral-0">紀錄</p>
+      </div>
+      <!-- 個人 -->
+      <div class="py-3 px-2">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.85 17.1C6.7 16.45 7.65 15.9375 8.7 15.5625C9.75 15.1875 10.85 15 12 15C13.15 15 14.25 15.1875 15.3 15.5625C16.35 15.9375 17.3 16.45 18.15 17.1C18.7333 16.4167 19.1875 15.6417 19.5125 14.775C19.8375 13.9083 20 12.9833 20 12C20 9.78333 19.2208 7.89583 17.6625 6.3375C16.1042 4.77917 14.2167 4 12 4C9.78333 4 7.89583 4.77917 6.3375 6.3375C4.77917 7.89583 4 9.78333 4 12C4 12.9833 4.1625 13.9083 4.4875 14.775C4.8125 15.6417 5.26667 16.4167 5.85 17.1ZM12 13C11.0167 13 10.1875 12.6625 9.5125 11.9875C8.8375 11.3125 8.5 10.4833 8.5 9.5C8.5 8.51667 8.8375 7.6875 9.5125 7.0125C10.1875 6.3375 11.0167 6 12 6C12.9833 6 13.8125 6.3375 14.4875 7.0125C15.1625 7.6875 15.5 8.51667 15.5 9.5C15.5 10.4833 15.1625 11.3125 14.4875 11.9875C13.8125 12.6625 12.9833 13 12 13ZM12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22Z"
+            fill="#F5F5F5"
+          />
+        </svg>
+        <p class="mt-3 fs-xs text-neutral-0">個人</p>
+      </div>
     </div>
+    <!--iphone bar  -->
+    <svg
+      width="134"
+      height="6"
+      viewBox="0 0 134 6"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect y="0.5" width="134" height="5" rx="2.5" fill="#F5F5F5" />
+    </svg>
   </div>
 </div>
 
